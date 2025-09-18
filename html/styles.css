@@ -1,0 +1,35 @@
+:root{
+  --ink: xxxx;                /* text color */
+  --paper: xxxx;              /* page background */
+  --brand-gold: xxxx;         /* accent */
+  --space-2: XXxxrem;         /* spacing scale */
+}
+header{
+  position: sticky; top: 0;
+  background: var(--paper);
+  border-bottom: 1px solid rgba(0,0,0,0.12);
+}
+nav{
+  display: flex;
+  gap: var(--space-2);
+  justify-content: center;
+  padding: calc(var(--space-2) * 0.75) 0;
+}
+nav a:hover{ background: rgba(xxxx,xxxx,xxxx,xxxx); } /* input your values! */
+body{ color: var(--ink); background: var(--paper); }
+/*comment*/
+p {
+  color: black;
+  padding: 5px;
+  background: #9f8872;
+  font-size: 1.2rem;
+}
+
+
+h1 {
+  font-size: 2rem; 
+  margin: var(--space-1) 0 0; 
+  color: var(--brand-brown); 
+  text-align: center; 
+}
+.prol{ opacity: .9; font-style: italic; }
